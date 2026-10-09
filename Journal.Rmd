@@ -20,6 +20,8 @@ Doing some debug works.
 
 (13:51) Testing.
 
+這星期已經是第三個人問我網站怎麽製作了。純粹用html, javascript和css看著有點費勁，尤其是html文件一堆tag.用Rmarkdown和github製作網站就非常舒服。但我發現有些地方不得不使用html. I need to learn more.
+
 ### 2026 | 10 | 07
 
 昨天和導師開會主要在討論scientific writing和AI在寫作中的運用。
