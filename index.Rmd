@@ -20,9 +20,9 @@ output: html_document
 
 # **Agrivoltaic Learning**
 
-This is a webpage to store my agrivoltaic learning notes. 
+This webpage serves as a repository for my agrivoltaics learning notes. It is also a personal project to teach myself how to build and host a website using R Markdown and GitHub. 
 
-I am a dedicated geospatial enthusiast from Hong Kong with a Master of Environmental Science (**Sensing and Spatial Data Science**) at the University of Western Australia, awarded with Distinction. I bring a solid foundation in geospatial modelling and analysis. I'm currently a PhD student at the University of Western Australia.
+I'm Kwan Yu. I am a dedicated geospatial enthusiast from Hong Kong with a Master of Environmental Science (**Sensing and Spatial Data Science**) at the University of Western Australia, awarded with Distinction. I bring a solid foundation in geospatial modelling and analysis. I'm currently a PhD student at the University of Western Australia.
 
 If I were not doing research, you could find me running along the lake, coding, volunteering or sleeping. 
 

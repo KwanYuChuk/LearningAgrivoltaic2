@@ -17,3 +17,11 @@ navbar:
     - text: "Links"
       href: Links.html
 output_dir: "docs"
+
+footer: >
+  <hr>
+  <center>
+    <p style="font-size: 0.85em; color: #777;">
+      All content by Kwan Yu Chuk. Created with rmarkdown in RStudio.
+    </p>
+  </center>
