@@ -65,4 +65,4 @@ I summarized 14 research papers about MCDA methods in AV area identification, fo
 
 ![Figure: Third highest weighting](images/gis_layer3.png){width=75% fig-align="center"}
 
-*Note: The weighting for each criteria is highly depend on the geographical location. For example some high latitude countries (Japan) will consider snow cover, while in my study area it is not needed.*
+*Note: The weighting for each criteria is highly depend on the geographical location. For example some high latitude countries (Japan) will consider snow cover, while in my study area snow is not needed.*
