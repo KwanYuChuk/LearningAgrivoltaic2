@@ -22,6 +22,8 @@ Doing some debug works.
 
 這星期已經是第三個人問我網站怎麽製作了。純粹用html, javascript和css看著有點費勁，尤其是html文件一堆tag.用Rmarkdown和github製作網站就非常舒服。但我發現有些地方不得不使用html. I need to learn more.
 
+(16:12) Bowen ratio的計算真是方便啊，但方便是方便，它對測量的準確度要求太高了，僅改變2%的濕度與0.5的氣溫便造成29%的誤差。這導致我使用Bowen ratio算出來的東西都是垃圾，以至於離譜到日閒的蒸發量變成了負數。我檢查了幾次，我輸入的公式在數學上是沒有錯誤的。還是要乖乖去用residual energy balance吧。
+
 ### 2026 | 10 | 07
 
 昨天和導師開會主要在討論scientific writing和AI在寫作中的運用。
