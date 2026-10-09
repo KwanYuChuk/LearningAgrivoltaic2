@@ -1,11 +1,11 @@
 ---
-title: "Study sites"
+title: "Agrivoltaic Learning"
 output:
-  html_document:
-    toc: true
-    toc_float: true
-    collapsed: false
-    number_sections: false
+  html_document
+    #toc: true
+    #toc_float: true
+    #collapsed: false
+    #number_sections: false
     #toc_depth: 1
     #code_folding: hide
 ---
@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# **Agrivoltaic Learning**
+
 
 This is a webpage to store my agrivoltaic learning notes. 
 
