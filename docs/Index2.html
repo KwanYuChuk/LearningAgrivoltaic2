@@ -11,7 +11,7 @@
 
 
 
-<title>Panel configuration</title>
+<title>Study sites</title>
 
 <script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -351,83 +351,30 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Panel configuration</h1>
+<h1 class="title toc-ignore">Study sites</h1>
 
 </div>
 
 
-<div id="av-system-architectures" class="section level1">
-<h1><strong>AV system architectures</strong></h1>
-<p>2026 | 10 | 07 Last compiled: 2026-10-09</p>
-<p><strong>Fixed AV</strong>: include ground-mounted, elevated
-(stilt-mounted), rooftops, and greenhouse-integrated configurations.
-Tilt and orientation are constant, with crop exposure determined mainly
-by panel spacing and mounting height. Elevated designs enhance machinery
-access and light distribution.</p>
-<div id="general-configurations" class="section level2">
-<h2><strong>General configurations</strong></h2>
-<p>Key parameters—panel height (2–8 m), spacing (3–12 m), shading ratio
-(0.2–0.8), and tilt (0–45◦), to regulate light distribution,
-microclimate, crop responses.</p>
-<p><strong>Dynamic AV</strong>: single—or dual-axis tracking systems
-that adjust panel orientation in real time, enhancing PV yield while
-dynamically adjusting shading patterns. Higher capital costs, increased
-mechanical complexity, and greater maintenance requirements.</p>
+<div id="agrivoltaic-learning" class="section level1">
+<h1><strong>Agrivoltaic Learning</strong></h1>
+<p>This is a webpage to store my agrivoltaic learning notes.</p>
+<p>I am a dedicated geospatial enthusiast from Hong Kong with a Master
+of Environmental Science (<strong>Sensing and Spatial Data
+Science</strong>) at the University of Western Australia, awarded with
+Distinction. I bring a solid foundation in geospatial modelling and
+analysis. I’m currently a PhD student at the University of Western
+Australia.</p>
+<p>If I were not doing research, you could find me running along the
+lake, coding, volunteering or sleeping.</p>
+<p><strong>My research interests: agrivoltaic, microclimate,
+ecohydrology, remote sensing</strong></p>
+<div id="about-me-geospatial-and-microclimate-enthusiast"
+class="section level3">
+<h3><a href="https://kwanyuchuk.github.io/">About me: Geospatial and
+microclimate enthusiast</a></h3>
+<p><img src="images/ky.png" style="width:25.0%" /></p>
 </div>
-<div id="tracking-strategies" class="section level2">
-<h2><strong>Tracking strategies</strong></h2>
-<p>2026 | 10 | 05 Last compiled: 2026-10-09</p>
-<p><strong>Sun tracking</strong>: The standard operation of the solar
-tracker, designed to maximize energy output</p>
-<p><strong>Anti tracking</strong>: The inverse of sun tracking, aimed at
-maximizing ground irradiance or minimizing solar irradiation
-interception by the PV system.</p>
-<p><strong>Scheduled tracking</strong>: A hybrid strategy that
-alternates between sun tracking and anti tracking throughout the day.
-For example, between 11am to 3pm use sun tracking and remaining hours
-use anti tracking. <span style="color:blue">This is to avoid midday
-hottest and most irradiated hours that incoming light may exceed the
-crop’s usable range</span>.</p>
-<p><strong>Daily light integral tracking</strong>: Initially follows the
-anti tracking strategy until the crop’s required DLI is met, then
-switches to sun tracking for the remainder of the day prioritizing
-energy conversion (light for crop use first and then energy).</p>
-<p><strong>Knee point tracking</strong>: It chooses the optimal tilt
-angle based on the ambient temperature in the field that is derived out
-of the optimal PAR of the LRC using the KP.</p>
-<p><em>Note: I’m really interested with different tracking strategies,
-especially those prioritize crop light requirements (and not so many
-research papers about this - there is a big research gap). But I read an
-Australian review paper and realize Australian farmers are more care
-about general configurations, like panel height, row spacing, material…I
-need to consider what farmers need, not just my interests. Horticulture:
-wine grape; two materials: semi-transparent and bifacial; if tracking,
-sun tracking, scheduled tracking, daily light integral; if fixed,
-height, row spacing, tilt angle; grape data: from field observation, or
-CSIRO, or APSIM.</em></p>
-</div>
-</div>
-<div id="panel-materials" class="section level1">
-<h1><strong>Panel materials</strong></h1>
-<p>2026 | 10 | 02 Last compiled: 2026-10-09</p>
-<p><strong>Conventional c-Si</strong>: single-sided monocrystalline or
-polycrystalline silicon modules, characterised by a single active
-surface exposed to direct solar radiation. <span
-style="color:blue">Usually moderate to high shading</span>. Common in
-tracking systems.</p>
-<p><strong>Bifacial PV</strong>: two active surfaces capable of
-absorbing not only direct and diffuse radiation, but also that reflected
-from the ground. <span style="color:blue">Usually low to moderate
-shading in vertical; moderate to high shading in tilt</span>. Common in
-horticulture.</p>
-<p><strong>Semi-tranparent PV</strong>: transmit a significant amount of
-PAR, while filtering out wavelengths that cannot be used by plants and
-converting them into electricity. <span style="color:blue">Usually low
-to moderate shading</span>.</p>
-<p><strong>Concentrating PV</strong>: convey solar radiation to
-high-efficiency multi-junction cells, allowing the diffuse component of
-the radiation to pass through to the plants. <span
-style="color: blue">Designed for low crop light penaty</span>.</p>
 </div>
 
 
@@ -479,7 +426,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
