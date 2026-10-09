@@ -14,6 +14,8 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+### 2026 | 10 | 09
+
 ### 2026 | 10 | 07
 
 昨天和導師開會主要在討論scientific writing和AI在寫作中的運用。
