@@ -3,7 +3,7 @@ navbar:
   title: "Agrivoltaic Learning"
   left:
     - text: "Home"
-      href: Index2.html
+      href: index.html
     - text: "Study sites"
       href: Sites.html
     - text: "Modelling"
