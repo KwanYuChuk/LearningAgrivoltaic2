@@ -3,6 +3,7 @@ title: "Agrivoltaic learning"
 output: html_document
 ---
 
+```{=html}
 <style type="text/css">
 .title {
   display: none;
@@ -13,28 +14,29 @@ output: html_document
 }
 
 </style>
+```
 
-<div class="row" style="padding-top: 30px;">
-<div class="col-sm-6" style="font-size: 18px;">
+::::: {.row style="padding-top: 30px;"}
+::: {.col-sm-6 style="font-size: 18px;"}
 
+This webpage serves as a repository for my agrivoltaics learning notes. It is also a personal project to teach myself how to build and host a website using R Markdown and GitHub.
 
-# **Agrivoltaic Learning**
+# About Agrivoltaic
 
-This webpage serves as a repository for my agrivoltaics learning notes. It is also a personal project to teach myself how to build and host a website using R Markdown and GitHub. 
+Agrivoltaic (AV) is the practice of using the same piece of land for both agricultural production and solar photovoltaic energy generation simultaneously. It can support Sustainable Development Goals (SDGs) 2 (Zero Hunger), 7 (Affordable and Clean Energy) and 13 (Climate Action).
+
+# About me
 
 I'm Kwan Yu. I am a dedicated geospatial enthusiast from Hong Kong with a Master of Environmental Science (**Sensing and Spatial Data Science**) at the University of Western Australia, awarded with Distinction. I bring a solid foundation in geospatial modelling and analysis. I'm currently a PhD student at the University of Western Australia.
 
-If I were not doing research, you could find me running along the lake, coding, volunteering or sleeping. 
+If I were not doing research, you could find me running along the lake, coding, volunteering or sleeping.
 
 **My research interests: agrivoltaic, microclimate, ecohydrology, remote sensing**
+:::
 
+::: {.col-sm-6 style="font-size: 14px;"}
+### [Kwan Yu: A Geospatial and microclimate enthusiast](https://kwanyuchuk.github.io/)
 
-</div>
-<div class="col-sm-6" style="font-size: 14px;">
-
-### [About me: Geospatial and microclimate enthusiast](https://kwanyuchuk.github.io/)
-
-<a href = "https://kwanyuchuk.github.io">
-![](images/ky.png)
-</a>
-</div>
+<a href = "https://kwanyuchuk.github.io"> ![](images/ky.png) </a>
+:::
+:::::
