@@ -14,6 +14,10 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+### 2026 | 10 | 13
+
+每一個領域都是那麽深。
+
 ### 2026 | 10 | 09
 
 Doing some debug works.
