@@ -20,6 +20,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 這讓我想到導師經常在我的draft中留下的評論"Why reader cares?"看看我的版本，列擧了四個地點。然後呢？讀者爲什麽要關心四個地點呢？這跟我的研究有什麽關係呢？所以經過導師修改後的版本，加入了這四個地點是幹什麽的。此時讀者方知道，原來是四個不同的AV site, 每個site的植被不同，回應前方的diverse AV systems.
 
+再一個例子。**(1) 我的原文***: (1) Where are the suitable agrivoltaic areas in current climate conditions in Australia? (2) Where are the suitable agrivoltaic areas in future climate conditions under RCP4.5 and RCP8.5 in Australia?* **(2) 導師修改後的句子***(1) What areas of Australia under its current climate conditions would be suitable for implementing agrivoltaics? (2) Under future climate conditions using IPCC scenarios RCP4.5 and RCP8.5, would suitable land areas for agrivoltaics in Australia change?* **(3) 我參考的那篇reference的原句***(1) what is the suitability for agrivoltaics across the southwestern U.S. under current climatic conditions?; ...and (3) how does suitability for agrivoltaics in the southwestern U.S. change in response to projected climate change under a ‘business as usual’ climate scenario, where agrivoltaics may mitigate some degree of climatic stress?* **(4) AI改我的原句***(1) Which areas of Australia are suitable for agrivoltaic systems under current climate conditions [baseline period], considering both crop suitability and solar energy potential?(2) How do these suitable areas change by [future period] under RCP4.5 and RCP8.5?*
+
 你看看，除了理論基礎，還有寫作的藝術。而每一個領域都是那麽深。不要再心有旁騖了，不要再往旁邊看了。
 
 ### 2026 | 10 | 09
