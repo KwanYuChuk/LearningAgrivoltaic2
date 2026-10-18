@@ -14,6 +14,14 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+### 2026 | 10 | 18
+
+終於空出一點時間了。過去的五天我嘗試了把手機放在office，人在圖書館幹活。幾乎每天喝功能飲料，效果挺好的。結果第二天office走廊遇到同事（同學？同個office但是不同導師和課題組），我打了個招呼后，又一頭扎進圖書館。晚上回office拿東西，一看手機，發現同事發了我一條信息：我們是在鬧矛盾嗎？你爲什麽不理我？我解釋道我這幾天需要深度工作。
+
+周六的時候，我把手機和平板交給housemate托管，并表示等我工作完成再拿回它們。周日終於完成了。
+
+想讓一個ADHD專注真的挺困難的。因爲不想改proposal, 所以其他的一切事情都格外有趣，甚至連github看代碼都能看三小時。
+
 ### 2026 | 10 | 13
 
 導師的文字功底真是深厚。我非常簡單粗暴地寫*The study will investigate four AV systems, including Boonanarring solar farm (WA), Bickley vineyard (WA), Dookie Campus (VIC) and Tatura SmartFarm (VIC) (Figure 3). *經過導師修改后的版本*The study will investigate four diverse AV systems across Australia, including a native shrub rehabilitation at Boonanarring solar farm (WA), a Shiraz grape installation in Bickley Valley (WA), a Sauvignon Blanc grapevine installation at the University of Melbourne’s Dookie Campus (VIC) and the Panels over Pears experiment at Tatura SmartFarm (VIC) (Figure 3). *
