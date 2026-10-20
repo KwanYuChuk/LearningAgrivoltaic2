@@ -6,6 +6,8 @@ navbar:
       href: index.html
     - text: "Study sites"
       href: Sites.html
+    - text: "Plants"
+      href: Plants.html
     - text: "Modelling"
       href: Modelling.html
     - text: "Panels"
