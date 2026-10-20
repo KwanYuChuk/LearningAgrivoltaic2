@@ -16,8 +16,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # **AV system architectures**
 
-2026 | 10 | 07 Last compiled: `r Sys.Date()`
-
 **Fixed AV**: include ground-mounted, elevated (stilt-mounted), rooftops, and greenhouse-integrated configurations. Tilt and orientation are constant, with crop exposure determined mainly by panel spacing and mounting height. Elevated designs enhance machinery access and light distribution.
 
 ## **General configurations**
@@ -27,8 +25,6 @@ Key parameters—panel height (2–8 m), spacing (3–12 m), shading ratio (0.2�
 **Dynamic AV**: single—or dual-axis tracking systems that adjust panel orientation in real time, enhancing PV yield while dynamically adjusting shading patterns.  Higher capital costs, increased mechanical complexity, and greater maintenance requirements.
 
 ## **Tracking strategies**
-
-2026 | 10 | 05 Last compiled: `r Sys.Date()`
 
 **Sun tracking**: The standard operation of the solar tracker, designed to maximize energy output
 
@@ -44,8 +40,6 @@ Key parameters—panel height (2–8 m), spacing (3–12 m), shading ratio (0.2�
 
 # **Panel materials**
 
-2026 | 10 | 02 Last compiled: `r Sys.Date()`
-
 **Conventional c-Si**: single-sided monocrystalline or polycrystalline silicon modules, characterised by a single active surface exposed to direct solar radiation. <span style="color:blue">Usually moderate to high shading</span>. Common in tracking systems.
 
 **Bifacial PV**: two active surfaces capable of absorbing not only direct and diffuse radiation, but also that reflected from the ground. <span style="color:blue">Usually low to moderate shading in vertical; moderate to high shading in tilt</span>. Common in horticulture.
@@ -54,7 +48,22 @@ Key parameters—panel height (2–8 m), spacing (3–12 m), shading ratio (0.2�
 
 **Concentrating PV**: convey solar radiation to high-efficiency multi-junction cells, allowing the diffuse component of the radiation to pass through to the plants. <span style="color: blue">Designed for low crop light penaty</span>.
 
+# **Panel distribution**
 
+Continuous straight-line (standard):一整條連續不間斷的直綫。光照均匀度較低，發電力度大。板下光照梯度劇烈，不適合高光需求作物。
 
+Checkerboard: 隔一空一，交錯分佈。隨著太陽移動，板下接受的光照更加散射和均匀，改善作物的光照均匀度。
 
+Dash-line: 鋪設一段，留空一段。eg安裝2-3塊板，空出1-2塊板。軸綫方向上有透光空隙，陽光能直射或散射入地面。
 
+![](images/continuous.png){width=25%}
+![](images/dashline.png){width=25%}
+![](images/checkerboard.png){width=25%}
+
+# Land equivalent ratio (LER)
+
+LER formula:
+
+$$LER = \frac{Y_{cr,AV}}{Y_{cr,ref}}(1 - LL) + \frac{Y_{e,AV}}{Y_{e,ref}}$$
+
+Where $Y_{cr,AV}$ is the crop yield (t/ha) under the AV system, $Y_{cr,ref}$ is the crop yield in the unshaded reference system (t/ha), $Y_{e,AV}$ is the AV energy yield (MWh/ha) and $Y_{e,ref}$ is the energy yield from the reference or GMPV system (MWh/ha). LL is the land loss and is attributed to the crop, as it represents the percentage of land under the AV array not used for crop cultivation due to the presence of the support structures. 

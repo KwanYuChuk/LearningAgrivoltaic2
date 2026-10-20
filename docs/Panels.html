@@ -364,7 +364,6 @@ div.tocify {
 
 <div id="av-system-architectures" class="section level1">
 <h1><strong>AV system architectures</strong></h1>
-<p>2026 | 10 | 07 Last compiled: 2026-10-20</p>
 <p><strong>Fixed AV</strong>: include ground-mounted, elevated
 (stilt-mounted), rooftops, and greenhouse-integrated configurations.
 Tilt and orientation are constant, with crop exposure determined mainly
@@ -382,7 +381,6 @@ mechanical complexity, and greater maintenance requirements.</p>
 </div>
 <div id="tracking-strategies" class="section level2">
 <h2><strong>Tracking strategies</strong></h2>
-<p>2026 | 10 | 05 Last compiled: 2026-10-20</p>
 <p><strong>Sun tracking</strong>: The standard operation of the solar
 tracker, designed to maximize energy output</p>
 <p><strong>Anti tracking</strong>: The inverse of sun tracking, aimed at
@@ -415,7 +413,6 @@ CSIRO, or APSIM.</em></p>
 </div>
 <div id="panel-materials" class="section level1">
 <h1><strong>Panel materials</strong></h1>
-<p>2026 | 10 | 02 Last compiled: 2026-10-20</p>
 <p><strong>Conventional c-Si</strong>: single-sided monocrystalline or
 polycrystalline silicon modules, characterised by a single active
 surface exposed to direct solar radiation. <span
@@ -434,6 +431,34 @@ to moderate shading</span>.</p>
 high-efficiency multi-junction cells, allowing the diffuse component of
 the radiation to pass through to the plants. <span
 style="color: blue">Designed for low crop light penaty</span>.</p>
+</div>
+<div id="panel-distribution" class="section level1">
+<h1><strong>Panel distribution</strong></h1>
+<p>Continuous straight-line
+(standard):一整條連續不間斷的直綫。光照均匀度較低，發電力度大。板下光照梯度劇烈，不適合高光需求作物。</p>
+<p>Checkerboard:
+隔一空一，交錯分佈。隨著太陽移動，板下接受的光照更加散射和均匀，改善作物的光照均匀度。</p>
+<p>Dash-line:
+鋪設一段，留空一段。eg安裝2-3塊板，空出1-2塊板。軸綫方向上有透光空隙，陽光能直射或散射入地面。</p>
+<p><img src="images/continuous.png" style="width:25.0%" /> <img
+src="images/dashline.png" style="width:25.0%" /> <img
+src="images/checkerboard.png" style="width:25.0%" /></p>
+</div>
+<div id="land-equivalent-ratio-ler" class="section level1">
+<h1>Land equivalent ratio (LER)</h1>
+<p>LER formula:</p>
+<p><span class="math display">\[LER = \frac{Y_{cr,AV}}{Y_{cr,ref}}(1 -
+LL) + \frac{Y_{e,AV}}{Y_{e,ref}}\]</span></p>
+<p>Where <span class="math inline">\(Y_{cr,AV}\)</span> is the crop
+yield (t/ha) under the AV system, <span
+class="math inline">\(Y_{cr,ref}\)</span> is the crop yield in the
+unshaded reference system (t/ha), <span
+class="math inline">\(Y_{e,AV}\)</span> is the AV energy yield (MWh/ha)
+and <span class="math inline">\(Y_{e,ref}\)</span> is the energy yield
+from the reference or GMPV system (MWh/ha). LL is the land loss and is
+attributed to the crop, as it represents the percentage of land under
+the AV array not used for crop cultivation due to the presence of the
+support structures.</p>
 </div>
 
 <hr>

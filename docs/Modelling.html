@@ -407,13 +407,34 @@ psychrometric constant.</p>
 </div>
 <div id="irradiance" class="section level2">
 <h2><strong>Irradiance</strong></h2>
-<p>2026 | 10 | 05 Last compiled: 2026-10-20</p>
 <p><strong>View factor models</strong>: models based on view or shape
 factors are often employed to estimate the rear surface irradiance, low
 computational demand and simplify.</p>
-<p><strong>Ray tracing models</strong>: it models light transport
-achieving detailed and realistic results but requiring rather
-computationally expensive processes.</p>
+<p><strong>Ray tracing models</strong>: Monte Carlo Ray Tracing, it
+models light transport achieving detailed and realistic results but
+requiring rather computationally expensive processes.</p>
+<p><strong>A study compare VF and RT</strong></p>
+<p>Ernst et al. (2024) <a
+href="https://www.sciencedirect.com/science/article/pii/S0306261924009577">Modelling
+bifacial irradiance – Step-by-step comparison and validation of view
+factor and ray tracing models</a></p>
+<pre><code>VF model: Jäger et al.’s in-house model (2D, analytical).
+
+RT model: Ernst et al.’s own object-oriented Monte Carlo ray tracing framework (from their 2021 iScience paper).
+
+Faiman model (adapted): used for cell temperature.
+
+Computing: 256 virtual CPUs on the Nectar Research Cloud and the National Computational Infrastructure Australia. VF takes about 15 min on a single CPU. RT 256 virtual CPUs, runtime ranges from 20 min for the simplest model to 730 min for the most detailed.
+
+Performance: Front 2 methods similar; Rear RT better. Reason: 支架，邊框導致VF高估光伏板背面光照。</code></pre>
+<p>Ernst et al. (2022) <a
+href="https://www.sciencedirect.com/science/article/pii/S2589004221016680">Accelerating
+the simulation of annual bifacial illumination of real photovoltaic
+systems with ray tracing</a></p>
+<pre><code>Problem: Ray tracing is slow, and a full year has 5,326 timesteps. Running one simulation per timestep is too expensive.
+
+Solution: Group timesteps with similar conditions into bins. **Simulate one case per bin (at the bin’s mean value) and reuse the result for every timestep in that bin**.</code></pre>
+<p><img src="images/bin.png" style="width:100.0%" /></p>
 </div>
 </div>
 <div id="crop-modelling" class="section level1">
