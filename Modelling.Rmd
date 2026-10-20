@@ -81,3 +81,40 @@ Ernst et al. (2022) [Accelerating the simulation of annual bifacial illumination
 # **Crop modelling**
 
 # **PV modelling**
+
+# Optimization: Example 1
+
+Campana et al. (2021) [Optimisation of vertically mounted agrivoltaic systems](https://www.sciencedirect.com/science/article/pii/S0959652621032807)
+
+3 main sub-models: solar radiation and shading, PV, crop yield
+
+**solar radiation and PAR**
+
+PAR decomposition model from Gu et al. (1999), solar transposition algorithm refers to Perez 1990 (Perez et al., 1987, 1990).
+The ground-reflected albedo radiation, and the total solar radiation on the front and rear side of the bifacial PV modules have been calculated with the models from Martín and Ruiz, (2005), Khan et al. (2017), and Sun et al. (2018). 
+
+**pv model**
+
+PV power production is calculated with the five-parameter, single-diode model as described in Duffie and Beckman (2013). The characteristic of the bifacial PV module refers to Jolywood D72N 380 Wp (Jolywood, 2021).
+
+**shading loss**
+
+The shading calculations have been performed following the approach presented in Cascone et al. (2011). 
+
+Key factors: solar vector S, shading factor beam, shading factor diffuse.
+
+Solar vector S ⇀ in a coordinate system centred on a local horizontal plane at an arbitrary location on the Earth, and is defined as follows (Stine and Geyer, 2001).
+
+The shading factor for the diffuse irradiance is calculated using the approach used in Li and Lam (2004) and in Cascone et al. (2011).
+
+**crop model**
+
+Environmental Policy Integrated Climate (EPIC) model developed by Williams et al. (1989).
+
+The model converts the daily intercepted PAR into biomass. The biomass production is then reduced by various stresses (i.e., water stress, or temperature stress, or fertiliser stress) and harvest index.
+
+The actual crop yield Ya (t/ha) is given by the equation (Williams et al., 1989).
+
+**optimization**
+
+Maximises the LER, minimises the fluctuation of the power, maximises the system annual electricity production.

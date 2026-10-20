@@ -443,6 +443,47 @@ Solution: Group timesteps with similar conditions into bins. **Simulate one case
 <div id="pv-modelling" class="section level1">
 <h1><strong>PV modelling</strong></h1>
 </div>
+<div id="optimization-example-1" class="section level1">
+<h1>Optimization: Example 1</h1>
+<p>Campana et al. (2021) <a
+href="https://www.sciencedirect.com/science/article/pii/S0959652621032807">Optimisation
+of vertically mounted agrivoltaic systems</a></p>
+<p>3 main sub-models: solar radiation and shading, PV, crop yield</p>
+<p><strong>solar radiation and PAR</strong></p>
+<p>PAR decomposition model from Gu et al. (1999), solar transposition
+algorithm refers to Perez 1990 (Perez et al., 1987, 1990). The
+ground-reflected albedo radiation, and the total solar radiation on the
+front and rear side of the bifacial PV modules have been calculated with
+the models from Martín and Ruiz, (2005), Khan et al. (2017), and Sun et
+al. (2018).</p>
+<p><strong>pv model</strong></p>
+<p>PV power production is calculated with the five-parameter,
+single-diode model as described in Duffie and Beckman (2013). The
+characteristic of the bifacial PV module refers to Jolywood D72N 380 Wp
+(Jolywood, 2021).</p>
+<p><strong>shading loss</strong></p>
+<p>The shading calculations have been performed following the approach
+presented in Cascone et al. (2011).</p>
+<p>Key factors: solar vector S, shading factor beam, shading factor
+diffuse.</p>
+<p>Solar vector S ⇀ in a coordinate system centred on a local horizontal
+plane at an arbitrary location on the Earth, and is defined as follows
+(Stine and Geyer, 2001).</p>
+<p>The shading factor for the diffuse irradiance is calculated using the
+approach used in Li and Lam (2004) and in Cascone et al. (2011).</p>
+<p><strong>crop model</strong></p>
+<p>Environmental Policy Integrated Climate (EPIC) model developed by
+Williams et al. (1989).</p>
+<p>The model converts the daily intercepted PAR into biomass. The
+biomass production is then reduced by various stresses (i.e., water
+stress, or temperature stress, or fertiliser stress) and harvest
+index.</p>
+<p>The actual crop yield Ya (t/ha) is given by the equation (Williams et
+al., 1989).</p>
+<p><strong>optimization</strong></p>
+<p>Maximises the LER, minimises the fluctuation of the power, maximises
+the system annual electricity production.</p>
+</div>
 
 <hr>
 <center>
