@@ -28,6 +28,10 @@ Above & Below Canopy Measurements:
 
 &emsp;&emsp;The instrument calculates transmittance ($T = B / A$) across the 5 view angles to determine how much gap space exists. 
 
+它不拍照，而是用五個環形探測器，把整個冠層的光線遮擋情況轉換成數據,測量不同方向有多少光線穿過樹冠。儀器將這五組數據結合起來，利用數學模型估算 LAI。
+
+![](images/PCA_fraction.png){width=75%}
+
 View Restrictors: To block out the user operator, neighboring rows, or unwanted sun glare, field-of-view caps ($45^\circ, 90^\circ, 180^\circ, 270^\circ$) can be placed over the fisheye lens.
 
 ## Study using PCA measurement: Example 1
@@ -82,3 +86,9 @@ Australia wine grape growing cycle:
 &emsp;&emsp;Autumn (March – May) — Harvest (Vintage) & Leaf Drop
 
 *基於澳洲葡萄的生長季，我將在2027年9月份到2028年2月份期間，每兩周進行一次LAI measurement.*
+
+# **Digital Hemispherical Photography (DHP)**
+
+魚眼鏡頭拍攝整個半球天空，分析天空與冠層的像素比例。
+
+*在生長季初期，葉子比較少，無論用哪種儀器都會不可避免地有樹幹遮擋光綫，這測到的LAI算什麽？*
