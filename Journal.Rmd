@@ -24,6 +24,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 我要想想怎麽把Brandon的工作與我的proposal整合起來。我對寫proposal有點厭倦了，我想快點開始數據分析。而且我也知道，proposal怎樣寫，實驗進行下去都會大幅修改的。
 
+This afternoon I was coding. Got some quick and dirty ET results using PM and REB methods. I'm not planning change too much about my original RQ1, but I will integrate B's work with mine. Crop suitability at present, crop suitability under climate change, potential water saving from ET. I probably choose 9 typical crop in Australia, including shade-loving and sun-loving.
+
 ### 2026 | 10 | 20
 
 一個很有趣的現象，瑞典是一個高緯度國家，太陽輻照度并不强。但是我發現瑞典在太陽輻射及農光互補方面的輻射建模非常强。于是我猜測是自然資源太匱乏了，所以當地的人想盡一切辦法優化提高相關方面的建模，用以更好地利用太陽能。
