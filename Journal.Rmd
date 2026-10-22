@@ -26,6 +26,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 This afternoon I was coding. Got some quick and dirty ET results using PM and REB methods. I'm not planning change too much about my original RQ1, but I will integrate B's work with mine. Crop suitability at present, crop suitability under climate change, potential water saving from ET. I probably choose 9 typical crop in Australia, including shade-loving and sun-loving.
 
+目前而言，我的RQ1已經確定了。RQ2有點vague and board, 我要想想怎麽narrow down and specific. RQ3也確定了，但是沒什麽創新點，類似的研究在歐洲與北美做得太多了，我又真的不想創新點是“澳洲沒做過相關研究”；并且RQ3涉及非常多的建模，對我來講挑戰很大。
+
 ### 2026 | 10 | 20
 
 一個很有趣的現象，瑞典是一個高緯度國家，太陽輻照度并不强。但是我發現瑞典在太陽輻射及農光互補方面的輻射建模非常强。于是我猜測是自然資源太匱乏了，所以當地的人想盡一切辦法優化提高相關方面的建模，用以更好地利用太陽能。
