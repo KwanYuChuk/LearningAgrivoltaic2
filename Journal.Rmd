@@ -14,6 +14,18 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+### 2026 | 10 | 27
+
+It's difficult to build argument.
+
+導師看我的introduction寫的真的太爛了，找了一篇非常棒的paper的introduction開始逐句critique.隨後又開始主句講我的introduction.被她這麽一說，我發現我寫的真的很爛。
+
+那篇sample paper的introduction第一段圍繞一個中心展開。主題句Producing enough food and plant-based bioenergy for the increasingly affluent population is a challenge made even more daunting by climate change. 講了三個重點：producing enough food, challenge, climate change. 接下來的四句話都是有關food. 總結句一轉，移到challenge和climate change. 接下來第二段以climate change開頭，第二句和第三句都講climate.第四句總結句帶出problem 1.
+
+而我的introduction第一段，東一句西一句，像是句子的堆砌。（雖然有點羞恥但我還是來critique一下）第一句講agricultural system. 第二句講rainfall change. 第三句講renewable energy. 第四句講solar radiation. 第五句講large pv infrastructure. 第六句講AV system. 第七句講AV system. 這麽一分析就清楚了。。。如果說英文不是母語看不出來錯不在我，翻譯成中文真的很明顯了。Jump too much and reader cannot follow.
+
+唉，心服口服。
+
 ### 2026 | 10 | 22
 
 我在昨天終於收到了Brandon關於AV工作的資料，一些slides,數據，代碼。讓我比較驚喜的是這些資料中包括了一份他的萬字AV journal,時間跨度為一年，不定期記錄了他完成的工作，未來的計劃，與supervisor meeting的内容。其中也提到了Caitlin. 
