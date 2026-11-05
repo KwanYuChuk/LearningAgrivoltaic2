@@ -14,6 +14,10 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+### 2026 | 11 | 05
+
+I'm thrilled to share I'm tired.
+
 ### 2026 | 10 | 29
 
 我感覺我病了。朋友説“你解離了”。但我感覺這是常態，身邊的博士身上都有淡淡的死感，沒有情緒價值，自己也沒有情緒。

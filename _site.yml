@@ -1,6 +1,6 @@
-name: "Agrivoltaic Learning"
+name: "Agrivoltaics Learning"
 navbar:
-  title: "Agrivoltaic Learning"
+  title: "Agrivoltaics Learning"
   left:
     - text: "Home"
       href: index.html

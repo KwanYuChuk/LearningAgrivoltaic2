@@ -1,5 +1,5 @@
 ---
-title: "Agrivoltaic learning"
+title: "Agrivoltaics learning"
 output: html_document
 ---
 
