@@ -14,6 +14,16 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+### 2026 | 11 | 18
+
+在nearmap上看了一下Bickley的衛星圖，發現對這個site做tracking system改造可行性極低且問題重重。第一點，支架結構缺乏中央旋轉軸。我的baseline scenario是基於目前的as-built進行simulation，是沒有問題，但由於是固定結構沒有中央旋轉軸，因此缺乏“假設在baseline scenario下有旋轉軸的模擬”，導致沒有相關數據，沒法進行tracking模擬。第二點，支架結構造成背面組件兩排cell無法直接使用。第三點，測量所得組件大小為1m x 2m，一行10個組件總共24米，在早晚大角度傾斜追日時，前排組件的陰影會投射到後排組件上，使發電效益惡化..而true tracking 本身的目的是最大化發電。
+
+雖然通過digital twin進行模擬是可行的，但是已經脫離了實際意義...
+
+沒有人喜歡Bickley site.它有一個大的slope,我的chapter 1不喜歡slope,因爲斜坡上建造成本變高；我的chapter 2不喜歡它，因爲斜坡上重力會影響土壤水分含量；現在我的chapter 3也不喜歡它，因爲光伏板本身的configuration讓我simulation存在很大問題。
+
+科研做著做著，發現沒有實際意義。
+
 ### 2026 | 11 | 05
 
 I'm thrilled to share I'm tired.
